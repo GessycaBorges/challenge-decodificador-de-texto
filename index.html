@@ -4,35 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main class="decoder">
-        <div class="decoder__content">
-            <img class="decoder__content__alura" src="/assets/alura.svg">
-            <section class="decoder__content__text">
-                <input type="search" class="decoder__content__text__type" placeholder="Digite seu texto">
-                <div class="decoder__content__text__final">
-                    <p class="decoder__content__text__info">
-                        <img src="/assets/info.svg">
-                        Apenas letras minúsculas e sem acento.
-                    </p>
-                    <div class="decoder__content__text__options">
-                        <a class="decoder__content__text__encrypt" href="#">
+    <main>
+        <div class="decoder">
+            <img class="decoder__alura" src="/assets/alura.svg" alt="Logo da Alura">
+            <section class="decoder__text">
+                <textarea class="decoder__text__content" placeholder="Digite seu texto"></textarea>
+                <div class="text__final">
+                    <div class="text__info">
+                        <img class="text__info__image" src="/assets/info.svg" alt="Exclamacao">
+                        <p class="text__info__text">Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="text__options">
+                        <button onclick="encryptText()" class="text__options__button encrypt">
                             Criptografar
-                        </a>
-                        <a class="decoder__content__text__decrypt" href="#">
+                        </button>
+                        <button onclick="decryptText()" class="text__options__button decrypt">
                             Descriptografar
-                        </a>
+                        </button>
                     </div>
                 </div>
             </section>
-            <section class="decoder__content__image">
-                <img src="/assets/search.svg">
-                <h1>Nenhuma mensagem encontrada</h1>
-                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <section class="decoder__image">
+                <div class="image__before">
+                    <img class="image__before__image" src="/assets/search.svg" alt="Pessoa pesquisando">
+                    <h1 class="image__before__title">Nenhuma mensagem encontrada</h1>
+                    <p class="image__before__text">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <div class="image__after hidden">
+                    <p class="image__after__text"></p> 
+                    <button onclick="copyText()" class="image__after__button text__options__button">
+                        Copiar
+                    </button>              
+                </div>
             </section>
-
         </div>
     </main>
+    <footer class="decoder__footer">
+        <span class="footer__text">
+            Gessyca Borges - 2024
+        </span>
+    </footer>
 </body>
 </html>
