@@ -1,10 +1,10 @@
 :root {
-    --dark-color-one:#0A3871;
-    --dark-color-two: #343A40;
-    --dark-color-three: #495057;
-    --ligth-color-two: #F3F5FC;
+    --dark-color-one: #522258;
+    --dark-color-two: #8C3061;
+    --dark-color-three: #C63C51;
     --ligth-color-one: #FFFFFF;
-    --ligth-color-three: #D8DFE8;
+    --ligth-color-two: #FFDFD6;
+    --ligth-color-three: #E3A5C7;
     --font: "Inter", sans-serif;
 }
 
@@ -115,6 +115,10 @@ main{
     text-align: center;
 }
 
+.image__before__image{
+    width: 100%;
+}
+
 .image__before__title{
     font-size: 1.5rem;
     color: var(--dark-color-two);
@@ -152,7 +156,7 @@ main{
 .decoder__footer{
     width: 100%;
     height: 2.5rem;
-    background-color: var(--dark-color-two);
+    background-color: var(--dark-color-one);
     display: flex;
     justify-content: center;
     box-sizing: border-box;
