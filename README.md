@@ -35,7 +35,7 @@ Projeto desenvolvido como um desafio do programa ONE, uma parceria entre a Alura
 
 ## Link para o Protótipo no Figma
 
-Você pode visualizar o protótipo do projeto no Figma [aqui]([SEU_LINK_FIGMA](https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0-1)).
+Você pode visualizar o protótipo do projeto no Figma [aqui](https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0-1).
 
 ## Prévia
 
