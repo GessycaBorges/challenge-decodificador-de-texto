@@ -41,6 +41,10 @@ Você pode visualizar o protótipo do projeto no Figma [aqui](https://www.figma.
 
 ![Prévia](assets/example.png)
 
+## Responsividade
+
+O projeto é responsivo e foi desenvolvido para funcionar bem em diferentes tamanhos de tela, desde dispositivos móveis até desktops.
+
 ## Contribuições
 
 Se você deseja contribuir para o projeto, sinta-se à vontade para abrir um issue ou pull request. Qualquer feedback é bem-vindo!
