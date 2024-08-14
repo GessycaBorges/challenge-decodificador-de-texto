@@ -49,6 +49,11 @@ O projeto é responsivo e foi desenvolvido para funcionar bem em diferentes tama
 
 Se você deseja contribuir para o projeto, sinta-se à vontade para abrir um issue ou pull request. Qualquer feedback é bem-vindo!
 
+## Extra
+
+Como atividade extra fiz algumas alterações na paleta de cores e está disponível na branch `outra-versao`
+![Prévia](assets/extra.png)
+
 ## Autora
 
 <a href="https://www.linkedin.com/in/gessycaborges/">
