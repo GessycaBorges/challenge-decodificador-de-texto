@@ -181,7 +181,7 @@ body{
     }
 
     .decoder__alura{
-        margin-top: 5%;
+        margin-top: 10%;
     }
     
     .decoder__text{
@@ -208,7 +208,7 @@ body{
 
 @media (max-width:700px) {
     .decoder__alura{
-        width: 30%;
+        width: 15%;
     }
 
     .text__options{
